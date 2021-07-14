@@ -114,6 +114,18 @@ article img{
     padding: 60px 0px 0px 0px;
 
 }
+.show-football{
+    background-color: white;
+    box-shadow: 0px 0px 40px rgba(0,0,0,0.15);
+    width: 49%;
+    height: 430px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+}
+.show-football h1{
+    padding: 10px 0px 10px 0px;
+}
 /* .trophy{
     background-color:aquamarine;    
     width: 80%;
@@ -206,6 +218,7 @@ footer{
         height: 250px;
             
     }
+    
     footer{        
         display: flex;
         flex-direction: column;
