@@ -37,12 +37,12 @@ header:hover .banner-right img{
     color: white;
     font-size: 64px;
     line-height: 80px;
-    padding: 126px 5px 5px 102px;
+    padding: 182px 5px 5px 102px;
 }
 .banner-right img{
     width: 556.01px;
     height: 438px;
-    padding: 40px 102px 5px 113px;
+    padding: 100px 102px 5px 113px;
 }
 main{    
     background-color: white;
@@ -90,6 +90,7 @@ article img{
 }
 .description p{
     text-align: justify;
+    padding: 10px 0px 5px 0px;
 }
 .description a{
     text-decoration: none;
@@ -104,8 +105,12 @@ article img{
     width: 50%;
     display: flex; 
 }
+.trophy{
+    word-wrap: none;
+    /* width: 16%; */
+}
 .trophy img{
-    width: 54%;
+    width: 80%;
     height: 250px;
 
 }
