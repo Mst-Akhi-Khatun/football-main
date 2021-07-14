@@ -221,7 +221,15 @@ footer{
         text-align: center;
         padding: 10px 0px 5px 0px;
     }
+    .trophys{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        
+    }
     .trophy{
+        
         padding: 0px 0px 0px 16px;
     }
     .trophy img{
