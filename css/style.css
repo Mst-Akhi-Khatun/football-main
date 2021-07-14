@@ -11,22 +11,23 @@ body{
 header{
     background-color: #2D25A0;
     width: 100%;
-    margin-bottom: 70px;  
+    height: 635px;
+    margin-bottom: 70px;
+    overflow: hidden;  
 }
-header:hover .banner-right img{
-    transform: rotate(360deg) scale(0.8);
-    transition: transform 2s ease-in-out;    
+
+.banner-sec{  
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
-.banner-sec{    
-    height: 640px;
-    display: flex; 
-}
+
 .banner-left a{
     text-decoration: none;
     background-color: #E02C6D;
     color: white;
     padding: 10px 24px;
-    margin: 13px 5px 5px 103px;
+    margin: 13px 5px 5px 0px;
     display: inline-block;
     border: none;    
 }
@@ -36,13 +37,16 @@ header:hover .banner-right img{
 .banner-left h1{
     color: white;
     font-size: 64px;
-    line-height: 80px;
-    padding: 182px 5px 5px 102px;
+    line-height: 80px;    
 }
 .banner-right img{
     width: 556.01px;
     height: 438px;
     padding: 100px 102px 5px 113px;
+}
+header:hover .banner-right img{
+    transform: rotate(360deg);
+    transition: transform 2s ease-in-out;    
 }
 /* header part end */
 /* main part start */
